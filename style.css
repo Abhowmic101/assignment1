@@ -68,26 +68,90 @@
 
 #sec1 {
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
+    height: 95vh;
     margin-bottom: 500px;
-    position: relative;
+}
 
+.main-div {
+    width: 100%;
+    position: relative;
 
 }
 
 #header-img {
     width: 100%;
-    z-index: 1;
+}
+
+.main-div .para-pos,
+a {
     position: absolute;
+    left: 50%;
+    z-index: 3;
+
+}
+
+#tag-part {
+    top: 32%;
+    left: 45%;
+    font-size: 40px;
+}
+
+#quote-part {
+    top: 45%;
+    left: 48%;
+
+}
+
+#quote-line {
+    left: 45%;
+}
+
+.quote {
+    top: 40%;
+    font-size: 25px;
+    color: lightgrey;
+    font-weight: light;
+
+}
+
+#tag-line {
+    top: 28%;
+    left: 40%;
+}
+
+.tag {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
 }
 
 #div-color {
-    background-color: black;
-    z-index: 2;
-    opacity: .5;
     position: absolute;
+    z-index: 2;
+    background-color: black;
+    width: 99vw;
+    height: 144.3vh;
+    opacity: .2;
 }
+
+.main-div {
+    position: absolute;
+    z-index: 1
+}
+
+.main-div a {
+    top: 47%;
+}
+
+.main-div #tag-line {
+    top: 20%;
+    left: 40%;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+
 
 #margin {
     margin-left: 8px;
